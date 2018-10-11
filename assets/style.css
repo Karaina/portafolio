@@ -12,7 +12,7 @@
 
 nav{
   position: fixed;
-  background: rgba(0, 0, 0, 0.2) !important;
+  background: rgba(246,50,88, 0.2) !important;
   padding:0px 20px;
   z-index: 20;
 }
@@ -38,7 +38,7 @@ section{
 }
 
 body{
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(173,130,123);
   background-attachment: fixed;
   background-size: 100%;   
 }
@@ -114,7 +114,7 @@ html, body, .block {
 }
 
 #blue {
- background:rgb(22, 22, 22) !important;
+ background:rgb(149,157,135) !important;
 }
 
 
@@ -181,8 +181,8 @@ p{
   text-align: justify;
   color: rgb(255, 255, 255);
   font-size: 16px;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
   
 }
 
@@ -195,3 +195,21 @@ p{
 #letras{
   color: rgb(10, 1, 1) !important;
 }
+
+.flow-text {
+  font-size: 14px;
+}
+
+#h4hola{
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 15em;
+  padding-bottom: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+  color: beige;
+  margin: 0;
+}
+
+/*footer*/
