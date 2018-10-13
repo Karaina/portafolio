@@ -1,200 +1,34 @@
-.portada{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
+/*navbar---------------------------------------------------------------------------*/
+nav{
+  position: fixed;
+  background: rgba(167,219,216, 0.2) !important;
+  padding:0px 20px;
+  z-index: 20;
 }
-
-#milogo{
+nav li a:hover{
+  background: silver;
+}
+#minombre{
   font-family: 'Pacifico';
   font-size: 25px;
 }
 
-nav{
-  position: fixed;
-  background: rgba(246,50,88, 0.2) !important;
-  padding:0px 20px;
-  z-index: 20;
-}
-
-nav li a:hover{
-  background: silver;
-}
-
-section{
-  background-size: cover;
-  width: 100%;
-  height: 450px;
-}
-.box{
-  margin-top: 20px;
-  height: 1000px;
-}
-
-
-.page-footer{
-  background: rgba(0, 0, 0, 0.2) !important;
-  padding: 0px 20px;
-}
-
+/*Body - background---------------------------------------------------------------*/
 body{
-  background-color: rgb(173,130,123);
+  background-color: #E0E4CC;
   background-attachment: fixed;
   background-size: 100%;   
 }
 
-.botones button{
-   padding: 10px 40px 10px 40px;
-   background-color: rgb(100, 72, 133);
-   color: rgb(255, 255, 255);
-   border: none;
-   font-weight: bold;
-   border-radius: 5px;
-}
-
-.botones{
- margin:auto;
-}
-
-.botones button:hover{
- background-color: rgb(77, 4, 105);
- color: white;
-}
-
-.page-footer{
-  padding-top: 3em;
-  padding-bottom: 3em;
- 
-}
-
-
-.flex-container {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  
-}
-
-#sobremi {
- display:flex;
-  
-}
-
-#texto{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-h5{
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top:3em;
-  color: aliceblue;
-
-}
-
-#h4soy{
-  display: flex;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 15em;
-  padding-bottom: 1em;
-  padding-left: 5em;
-  padding-right: 5em;
-  color: beige;
-  margin: 0;
-}
-
-html, body, .block {
-  height: 80%;
-}
-
-#blue {
- background:rgb(149,157,135) !important;
-}
-
-
-#elem {
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-}
-
-
-#mistrabajos {
+/*parallax----------------------------------------------------------------------*/
+#portadadiv {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
   padding-bottom: 100%;
  }
-
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: #000000;
-}
-
-#modalito{
-  display:flex;
-  align-items: baseline;
-}
-
-.fa-window-close{
-  display:flex;
-  justify-content: flex-end;
-  color:#f50057;
-  font-size: 34px;
-}
-
-
-#butoncillo{
-  display: flex;
-  flex-direction: row;
-}
-
-.fa-arrow-alt-circle-right{
-  padding-left: 10px;
-}
-
-.fa-copy{
-color: gray;
-padding-left: 5px;
-}
-
-.fa-copy:hover{
-color: palevioletred;
-}
-
-p{
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-  
-}
-
-.fa-linkedin, .fa-behance, .fa-medium, .fa-whatsapp, .fa-at{
-  font-size: 28px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#letras{
-  color: rgb(10, 1, 1) !important;
-}
-
-.flow-text {
-  font-size: 14px;
-}
-
-#h4hola{
+#quiensoy{
   display: flex;
   font-size: 18px;
   text-align: center;
@@ -205,24 +39,86 @@ p{
   color: beige;
   margin: 0;
 }
-
-/*footer*/
-.page-footer{
-  width: 100;
-}
-
-#contsobre{
+#butoncillodeportada{
   display: flex;
-  justify-content: center;
-  padding-left: 1em;
-  padding-right: 1em;
+  flex-direction: row;
+}
+.fa-arrow-alt-circle-right{
+  padding-left: 10px;
 }
 
+/*aptitudes----------------------------------------------------------------------*/
+#blue {
+  background: #E0E4CC !important;
+ }
+ h4{
+  color:#FA6900;
+}
+.block{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
 #elem{
   padding-top: 2em;
   
 }
 
-h4{
-  color: antiquewhite;
+/*trabajos----------------------------------------------------------------------*/
+.card-title{
+  color: black !important;
+}
+
+
+/*sobremi------------------------------------------------------------------------*/
+h5{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:3em;
+  color: aliceblue;
+}
+
+/*piedepagina--------------------------------------------------------------------*/
+.page-footer{
+  display: flex;
+}
+.fa-linkedin{
+  display: inline-block;
+  font-size: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fa-github-alt {
+  display: inline-block;
+  font-size: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.fa-at{
+  display: inline-block;
+  font-size: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.iconos{
+  display: flex;
+  justify-content: center;
+  width: 100;
+
+}
+
+
+/*modal--------------------------------------------------------------------------*/
+.fa-window-close{
+  display:flex;
+  justify-content: flex-end;
+  color:#f50057;
+  font-size: 34px;
+}
+.fa-copy{
+color: gray;
+padding-left: 5px;
+}
+.fa-copy:hover{
+color: palevioletred;
 }
