@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Karina Smoje - UX design</title>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
 
+   
     <!--fuente-->
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Notable|Open+Sans" rel="stylesheet">
@@ -34,7 +34,7 @@
        <a href="#" id="minombre" class="brand-logo">Karina  Smoje</a>
        <ul class="right hide-on-med-and-down">
          <li><a href="#" >Inicio</a></li>
-         <li><a href="assets/portafolio.html">Portafolio</a></li>
+         <li><a href="#card">Portafolio</a></li>
          <li><a href="assets/logros.html">Logros</a></li>
          <li><a href="#sobre">Sobre mi</a></li>
          <li><a class="modal-trigger" href="#modal1" >Contacto</a></li>
@@ -43,29 +43,33 @@
   </nav>
 </header>
 <main>
+
      <!--Div parallax -->
        <div class="parallax-container">
+         <div class="row">
       <!--Boton + enlace -->
        <div id="portadadiv">
-                     <div id="quiensoy">
+                     <div class="col s6" id="quiensoy">
                         Soy diseñadora UX, con habilidades en tecnología y programas relacionados en diseño web y dibujos técnicos e ilustraciones. Me defino como una persona observadora y meticulosa, que se preocupa por el bienestar de las personas.
-                        Te invito a revisar mis aptitudes!
-                        
+                        Te invito a revisar mis aptitudes!  
                </div>
-              <button href="assets/portafolio.html" id="butoncillodeportada" class="btn waves-effect  pink accent-3" type="submit" name="action">Descubre mis trabajos
-                  <i class="far fa-arrow-alt-circle-right"></i>
-                </button></a>
-            </div>   
+          
+            </div>   </div>
            <!--Div imagen del parallax-->
-            <div class="parallax"><img src="https://cdn-images-1.medium.com/max/2000/1*9bpUtbOZiLd-8_NVUAmkHw.png">
+            <div class="parallax"><img src="https://images.pexels.com/photos/1470168/pexels-photo-1470168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
             </div>
+       
        </div>
 
+<!--<div class="container">
+  <img src="http://fakeimg.pl/600x400/FFFFFF/CCC/?text=hola" >
+</div>-->
 
       <!--aptitudes-->
+<div class="container">
        <div id="blue" class="block">
           <div class="row">
-                  <div id="aptitudes" class="col s12 m4">
+                  <div id="elem" class="col s12 m4">
                       <img src="assets/img/902707.png" width="80" height="80">
                     <h4>Creatividad</h4>
                     <p>Mi gran aporte son las ideas creativas, constantemente busco referentes e inspiración para los trabajos y proyectos que realizo con el fin de obtener excelentes resultados.  </p>
@@ -85,17 +89,18 @@
               
 
           </div>      
-       </div>
-
+       </div></div>
+<div class="container" id="card"><hr></div>
  <!--trabajos-->
-
+<br><br><br>
+<div class="container">
   <div class="row">
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
               <img src="assets/img/fairycake para portafolio/splash fc.png">
               <span class="card-title">Portal e-commerce</span>
-              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              <a class="btn-floating halfway-fab waves-effect waves-light indigo"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
              El producto es un prototipado de portal de ventas mobile first para el emprendimiento chileno “ FairyCake”, donde el enfoque está en otorgar un nuevo espacio para promocionar sus productos a través de una interfaz que integre la imagen de marca.  
@@ -103,14 +108,32 @@
             </div>
           </div>
         </div>
+        <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/img/fairycake para portafolio/Mano-con-celular-mediQó-e1456176463583.png">
+                <span class="card-title">Tus finanzas: La nueva forma de ahorrar</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light indigo"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                  Mediante el uso de metodologías ágiles, replanteé el flujo de usuario
+                  y la usabilidad de la aplicación "Tus Finanzas". Mi trabajo consistió
+                  testear con usuarios la actual aplicación, redefinir al user persona, y
+                  analizar data para crear una estrategia de crecimiento y proponer
+                  desarrollos futuros. 
+              </div>
+            </div>
+          </div>
+          
+        
       </div>
-
+    </div>
 
  <!-- Sobre mí -->
     <div class="container">
         <div id="sobre"><h5>Sobre mí</h5></div> 
     <div id="a" class="row">
-        <div class="col md-6 l6"><img src="assets/img/yo.jpg" width="400"></div>
+        <div class="col md-6 l6"><img class="responsive-img" src="assets/img/yo.jpg" width="400"></div>
         
         <div class="col md-6 l6" id><p>
             Soy egresada de la sexta generación de laboratoria como diseñadora de experiencia de usuario. Y tengo el título de diseñadora de vestuario y textiles.
@@ -129,7 +152,7 @@
         <div class="container">
         <div class="class">
             <div class="row">
-                <div class="col s12 m6">
+                <div class="col s12">
                   <div id="iconos">
                   <i class="fab fa-linkedin" href="https://www.linkedin.com/in/karina-smoje-g%C3%BCeico/"></i>  
                   <i class="fas fa-at"></i> 
@@ -158,17 +181,14 @@
                 <h4>Información de contacto:</h4>
                 <ul>
                 <li> <b>Correo:</b> karinasmoje@gmail.com <i class="far fa-copy"></i></li> 
-              
               </ul>
-              
             </div>
-          
             </div>
 
            
 
      <!-- JavaScript -->
-     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script type="text/javaScript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
      <script src="assets/js/materialize.js"></script>
      <script src="assets/app.js"></script>
 

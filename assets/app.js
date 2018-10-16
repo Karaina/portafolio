@@ -1,3 +1,5 @@
+var instance = M.Parallax.getInstance(elem);
+
 (function($){
   $(function(){
 
@@ -9,10 +11,8 @@
 
 
 $(document).ready(function(){
-
-  $('.modal').modal()
-
   $('.parallax').parallax();
+  $('.modal').modal()
 
   $(window).scroll(function(){
     if($(window).scrollTop()>300){
@@ -24,12 +24,8 @@ $(document).ready(function(){
   
   $('.slider').slider();
 });
-
 $('.pushpin').pushpin();
-
-
 });
-
 
      
 $('.pushpin-demo-nav').each(function() {
@@ -46,26 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Parallax.init(elems, options);
 });
 
-$('.carousel.carousel-slider').carousel({
-  fullWidth: true,
-  indicators: true
-});
-
-/*función de icono para copiar texto*/
-let clipboard = new Clipboard('.far fa-copy');
-
-clipboard.on('success', function(e) {
-    console.info('Accion:', e.action);
-    console.info('Texto:', e.text);
-    console.info('Trigger:', e.trigger);
-
-    e.clearSelection();
-});
-
-clipboard.on('error', function(e) {
-    console.error('Accion:', e.action);
-    console.error('Trigger:', e.trigger);
-});
 
 
 /*función para copiar
