@@ -62,13 +62,17 @@ body{
   text-align: center;
 }
 #elem{
-  padding-top: 2em;
-  
+  padding-top: 4em;
+
 }
 
 /*trabajos----------------------------------------------------------------------*/
 .card-title{
   color: rgb(24, 22, 22) !important;
+}
+
+#card{
+  padding-top: 3em;
 }
 
 
@@ -133,3 +137,6 @@ color: palevioletred;
 }
 
 /*Portafolio---------------------------------------------------------------------*/
+.fondo {
+  background-image: url("img/fairycake\ para\ portafolio/comidamujercomiendoseunmafin");
+}
