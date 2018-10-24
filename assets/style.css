@@ -25,19 +25,20 @@ body{
 #portadadiv {
   display: flex;
   flex-direction: column;
-  
+  padding-top: 10em;
   background-color: rgba(0, 0, 0, 0.6);
   padding-bottom: 100%;
  }
 #quiensoy{
   display: flex;
   align-items: baseline;
-  
   padding-left: 2em;
   font-size: 18px;
   color: beige;
   margin: 0;
 }
+
+
 
 #butoncillodeportada{
   display: flex;
@@ -77,10 +78,16 @@ body{
   font-weight: bold;
 }
 
+	
+.brilla:hover {
+  filter: opacity(.5);
+}
+
+
 
 /*sobremi------------------------------------------------------------------------*/
 h5{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: aliceblue;
   z-index: 10;
 }
@@ -124,8 +131,4 @@ h5{
   justify-content: center;
   width: 100;
 
-}
-/*Portafolio---------------------------------------------------------------------*/
-.fondo {
-  background-image: url("img/fairycake\ para\ portafolio/comidamujercomiendoseunmafin");
 }

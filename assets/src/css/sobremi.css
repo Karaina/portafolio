@@ -8,8 +8,8 @@ nav{
 nav li a:hover{
   background: silver;
 }
-#minombre{
-  font-family: 'Pacifico';
+#milogo{
+  font-family: 'Pacifico' !important;
   font-size: 25px;
 }
 

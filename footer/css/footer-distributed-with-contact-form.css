@@ -3,7 +3,7 @@
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
+	font: bold 16px 'Montserrat', sans-serif;
 	text-align: left;
 
 	padding: 50px 60px 40px;
@@ -21,7 +21,7 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Montserrat', sans-serif, cursive;
 	margin: 0 0 10px;
 }
 
@@ -151,7 +151,7 @@
 @media (max-width: 1000px) {
 
 	.footer-distributed {
-		font: bold 14px sans-serif;
+		font: bold 14px 'Montserrat', sans-serif;
 	}
 
 	.footer-distributed .footer-company-name{

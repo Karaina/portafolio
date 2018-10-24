@@ -68,6 +68,3 @@ boton.addEventListener('click', function(event) {
   // cuando los navegadores lo soporten, habría
   // que utilizar: removeRange(range)
 });
-
-/*tostadas*/
-M.toast({html: '¡Copiado a portapapeles!'})
